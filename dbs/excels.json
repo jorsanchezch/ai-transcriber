@@ -1,0 +1,21 @@
+{
+   "data": [
+      {
+         "filename": "excelly.xlsx",
+         "fields": [
+            "ex_field"
+         ],
+         "id": 253978831829264347
+      },
+      {
+         "filename": "Book1.xlsx",
+         "fields": [
+            "field1n",
+            "others",
+            "other",
+            "work of art"
+         ],
+         "id": 500184037328872195
+      }
+   ]
+}

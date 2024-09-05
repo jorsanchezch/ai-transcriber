@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+.env
+*.mp3
+*.xlsx
+files/*
+venv
+openai-key.zshrc
+gcp_service_acc.json
+db.json

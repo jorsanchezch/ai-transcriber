@@ -76,9 +76,8 @@ def analyze():
         results = analyzer.match_entities(response, excel.fields)
         excel.populate_fields(results)
 
-        # TO-DO: Save to DB
-        # analysis = Analysis.process(audio_filename=audio.filename, excel_filename=excel.filename, results=results)
-        # Analysis.get_db().addMany(analysis)
+        analysis = Analysis.process(audio_filename=audio.filename, excel_filename=excel.filename, results=results)
+        Analysis.get_db().addMany(analysis)
         
     output = io.BytesIO()
     excel.wb.save(output)
